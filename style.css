@@ -1,0 +1,91 @@
+#resultslist {
+  background-color: beige;
+  border: 5px solid tan;
+  border-radius: 10px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 18px 8px 18px 8px;
+  min-width: 75%;
+  cursor: pointer;
+}
+#resultslist:hover {
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
+  cursor: pointer;
+  background-color: tan;
+  border: 5px solid beige;
+}
+.timedb {
+  text-align: left;
+  margin-left: 90px;
+}
+.container {
+  width: 32%;
+  text-align: left;
+}
+body {
+  text-align: center;
+  /* padding-left: 60px;
+  padding-right: 60px; */
+}
+p {
+  /* max-width: 60%; */
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+  font-family: Quicksand, sans-serf;
+}
+
+.title {
+  margin: 35px;
+  font-family: "Unica One", serif;
+  font-size: 64px;
+  background-color: tan;
+  border: beige 3px solid;
+  border-radius: 8px;
+}
+.slogan {
+  max-width: 62%;
+  margin-bottom: 30px;
+}
+
+#suggestSiteOne {
+  font-size: 15px;
+  background-color: beige;
+  border: tan 3px solid;
+  border-radius: 8px;
+  max-width: 40%;
+  text-align: center;
+  margin-left: 420px;
+}
+#suggestSiteOne:hover {
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
+  cursor: pointer;
+  background-color: tan;
+  border: 5px solid beige;
+}
+
+
+#bg {
+  z-index: -10;
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  opacity: .6;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
